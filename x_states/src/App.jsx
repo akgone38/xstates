@@ -116,7 +116,7 @@ function App() {
 
       {/* Display selected city, state, and country */}
       {selectedCity && selectedState && selectedCountry && (
-        <p>You Selected {selectedCity}, {selectedState}, {selectedCountry}</p>
+        <p>You selected {selectedCity}, {selectedState}, {selectedCountry}</p>
       )}
     </div>
   );
